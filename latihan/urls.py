@@ -24,6 +24,6 @@ def contack(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('welcome/',home),
+    path('',home),
     path('contack/',contack),
 ]
